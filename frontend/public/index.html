@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Travel Planner</h1>
+        <div class="chat-history" id="chat-history">
+            <!-- Chat messages will be dynamically added here -->
+        </div>
+        <div class="form-group">
+            <label for="query">Ask Me Anything:</label>
+            <textarea id="query"></textarea>
+        </div>
+        
+        <button onclick="generateItinerary()">Enter</button>
+        <div id="location-error"></div>
+        <div id="map"></div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ gmaps_api_key }}&libraries=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{gmaps_api_key}}&libraries=geometry"></script>
+
+    <script src="/src/js/map-script.js"></script>
+    
+</body>
+</html>

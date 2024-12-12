@@ -1,0 +1,9 @@
+*.log
+/backend/config/apikey.txt
+/backend/config/gmapi.txt
+/backend/database/hohprod_2024-11-25.sql
+/backend/app/__pycache__/
+/backend/app/features/__pycache__/
+/backend/app/services/__pycache__/
+/backend/app/config/__pycache__/
+/myenvv/
